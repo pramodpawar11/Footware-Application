@@ -38,7 +38,7 @@ const Header = () => {
   },[lastScrolly])
   return (
     <header
-      className={`w-full h-[50px] md:h-[80px] flex items-center justify-between z-20 sticky top-0 transition-transform duration-30 ${show}`}
+      className={`bg-white w-full h-[50px] md:h-[80px] flex items-center justify-between z-20 sticky top-0 transition-transform duration-30 ${show}`}
     >
       <Wrapper className="h-[60px] flex justify-between items-center">
         <Link href="/">
@@ -71,12 +71,14 @@ const Header = () => {
           {/* Mobile icon end  */}
 
           {/* icon start  */}
+          <Link href="/cart">
           <div className="flex items-center justify-center gap-1 hover:bg-black/[0.05] w-8 md:w-12 h-8 md:h-12 rounded-full cursor-pointer relative">
             <BsCart className="text-[15px] md:text-[20px] " />
             <div className="h-[14px] md:h-[18px] min-w-[14px] md:min-2-[18px] absolute top-1 left-5 md:left-7 text-[10px] md:text-[12px] flex justify-center text-white items-center px-[2px] md:px-[5px] bg-red-500 rounded-full">
               5
             </div>
           </div>
+          </Link>
           {/* icon end  */}
 
           {/* icon start  */}
