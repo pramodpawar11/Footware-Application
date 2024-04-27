@@ -21,7 +21,7 @@ const ProductId = () => {
               Jordan Retro 6 G
             </div>
             {/* PRODUCT SUBTITLE  */}
-            <div className="text-lg font-semibold mb-5">
+            <div className="text-lg font-semibold mb-5"> 
               Men&apos;s Golf Shoes
             </div>
             {/* PRODUCT PRICE  */}
