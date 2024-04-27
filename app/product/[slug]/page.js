@@ -101,7 +101,7 @@ const ProductId = () => {
           </div>
           {/* right colum end */}
         </div>
-        <RelatedProducts/>
+        {/* <RelatedProducts/> */}
       </Wrapper>
     </div>
   );
